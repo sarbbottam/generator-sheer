@@ -1,0 +1,143 @@
+@custom-media --sm-device (width <= 568px);
+@custom-media --md-device (width <= 768px);
+@custom-media --lg-device (width <= 1024px);
+@custom-media --xl-device (width <= 1280px);
+
+:root {
+  /* base */
+  --base-font-color: #101010;
+  --base-font-weight: 300;
+  --base-font-size: 16px;
+  --base-background-color: #f8f8f8;
+
+  /* default */
+  --default-border-radius: 2px;
+  --default-border-color: #e5e5e5;
+  --default-border: 1px solid var(--default-border-color);
+
+  --default-error-color: #dd1037;
+
+  --default-focus-highlight-color: #198fff;
+  --default-focus-highlight-border: 1px solid var(--default-focus-highlight-color);
+
+  --default-padding: 12px;
+
+  --default-link-font-color: #198fff;
+}
+
+:root {
+  --aqua:  #7fdbff;
+  --blue:  #0074d9;
+  --navy:  #001f3f;
+  --teal:  #39cccc;
+  --green: #2ecc40;
+  --olive: #3d9970;
+  --lime:  #01ff70;
+
+  --yellow:  #ffdc00;
+  --orange:  #ff851b;
+  --red:     #ff4136;
+  --fuchsia: #f012be;
+  --purple:  #b10dc9;
+  --maroon:  #85144b;
+
+  --white:  #fff;
+  --silver: #ddd;
+  --gray:   #aaa;
+  --black:  #111;
+}
+:root {
+  --text-xl-font-size: 32px;
+  --text-lg-font-size: 24px;
+  --text-md-font-size: 18px;
+  --text-sm-font-size: 14px;
+}
+
+:root {
+  --input-field-font-color: #101010;
+  --input-field-border: var(--default-border);
+  --input-field-border-radius: var(--default-border-radius);
+  --input-field-height: 44px;
+  --input-field-padding: var(--default-padding);
+  --input-field-disabled-font-color: var(--input-field-font-color);
+  --input-field-disabled-background-color: #e6e7e8;
+
+  --placeholder-color: #8f8f8f;
+}
+:root {
+  --button-border-radius: var(--default-border-radius);
+  --button-font-size: 18px;
+  --button-height: 44px;
+  --button-padding: 24px;
+
+  --button-primary-enabled-font-color: #fff;
+  --button-primary-enabled-background-color: #400090;
+  --button-primary-enabled-border: 1px solid #400090;
+
+  --button-primary-active-font-color: #fff;
+  --button-primary-active-background-color: #1d033f;
+  --button-primary-active-border: 1px solid #1d033f;
+
+  --button-primary-disabled-font-color: #fff;
+  --button-primary-disabled-background-color: #9387c4;
+  --button-primary-disabled-border: 1px solid #9387c4;
+
+  --button-secondary-enabled-font-color: #198fff;
+  --button-secondary-enabled-background-color: #fff;
+  --button-secondary-enabled-border: 1px solid #95d3f9;
+
+  --button-secondary-active-font-color: #198fff;
+  --button-secondary-active-background-color: #fff;
+  --button-secondary-active-border: 1px solid #198fff;
+
+  --button-secondary-disabled-font-color: #a2a2a2;
+  --button-secondary-disabled-background-color: #fff;
+  --button-secondary-disabled-border: 1px solid #e1e1e1;
+
+  --button-cancel-enabled-font-color: #42597a;
+  --button-cancel-enabled-background-color: #eeeef5;
+  --button-cancel-enabled-border: 1px solid #e4e7ef;
+
+  --button-cancel-active-font-color: #42597a;
+  --button-cancel-active-background-color: #dddde8;
+  --button-cancel-active-border: 1px solid #d3d6dd;
+
+  --button-cancel-disabled-font-color: #8494a0;
+  --button-cancel-disabled-background-color: #f6f6fa;
+  --button-cancel-disabled-border: 1px solid #edeff4;
+
+  --button-link-font-color: var(--default-link-font-color);
+}
+:root {
+  --drop-down-font-color: #101010;
+  --drop-down-border: var(--default-border);
+  --drop-down-border-radius: var(--default-border-radius);
+  --drop-down-height: 44px;
+  --drop-down-padding: 10px;
+  --drop-down-disabled-font-color: var(--drop-down-font-color);
+  --drop-down-disabled-background-color: #e6e7e8;
+}
+
+:root {
+  --error-message-font-size: 13px;
+  --error-message-line-height: 18px;
+  --error-message-margin-top: 8px;
+  --error-message-background-color: var(--red);
+  --error-message-font-color: var(--white);
+  --error-message-padding: var(--default-padding);
+
+  --pointer-width: 4px;
+}
+:root {
+  --letter-spacing : 4px;
+}
+
+:root {
+  --capsule-padding: var(--default-padding);
+  --capsule-font-size: var(--base-font-size);
+}
+:root {
+  --card-padding: var(--default-padding);
+  --card-box-shadow-color: #d5d5d5;
+  --card-background-color: #fff;
+}

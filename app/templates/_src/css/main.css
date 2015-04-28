@@ -1,0 +1,29 @@
+/* sheer variables */
+@import '../../node_modules/sheer/src/variables/variables.css';
+
+@import '../../node_modules/sheer/src/modules/mixin.css';
+
+/* app variables */
+@import 'variables/variables.css';
+
+@import '../../node_modules/sheer/src/modules/standardize.css';
+
+@import '../../node_modules/sheer/src/modules/grid-core.css';
+
+/* sheer modules
+ * remove and add as required
+ * look at ../../node_modules/sheer/src/modules/ for the list of available modules */<% _.map(modules, function(module) { %>
+@import '../../node_modules/sheer/src/modules/<%- module %>';<% }); %>
+
+/*
+ * placeholder for app variables
+ * @import 'modules/module.css';
+ */
+
+/*
+ * order matters; granular rules overrides predefined rules,
+ * thus granular rules need to be loaded at the last
+ */
+@import '../../node_modules/sheer/src/modules/color.css';
+@import '../../node_modules/sheer/src/modules/text.css';
+@import '../../node_modules/sheer/src/modules/granular.css';
