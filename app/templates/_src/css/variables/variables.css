@@ -55,9 +55,11 @@
 
 :root {
   --input-field-font-color: #101010;
+  --input-field-font-size: 18px;
   --input-field-border: var(--default-border);
   --input-field-border-radius: var(--default-border-radius);
   --input-field-height: 44px;
+  --input-field-line-height: 22px;
   --input-field-padding: var(--default-padding);
   --input-field-disabled-font-color: var(--input-field-font-color);
   --input-field-disabled-background-color: #e6e7e8;
@@ -110,9 +112,11 @@
 }
 :root {
   --drop-down-font-color: #101010;
+  --drop-down-font-size: 18px;
   --drop-down-border: var(--default-border);
   --drop-down-border-radius: var(--default-border-radius);
   --drop-down-height: 44px;
+  --drop-down-line-height: 22px;
   --drop-down-padding: 10px;
   --drop-down-disabled-font-color: var(--drop-down-font-color);
   --drop-down-disabled-background-color: #e6e7e8;
@@ -140,4 +144,13 @@
   --card-padding: var(--default-padding);
   --card-box-shadow-color: #d5d5d5;
   --card-background-color: #fff;
+}
+
+:root {
+  --modal-transparent-background: rgba(0, 0, 0, .48);
+  --modal-background-color: #fff;
+  --modal-padding: 30px 20px;
+  --modal-border-radius: var(--default-border-radius);
+  --modal-width: 300px;
+  --modal-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 }
