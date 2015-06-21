@@ -1,6 +1,6 @@
 {
   "name": "generator-sheer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Yeoman generator generator that scaffolds out Sheer boilerplates",
   "license": "MIT",
   "main": "app/index.js",
@@ -36,7 +36,7 @@
   },
   "sheer": {
     "devDependecy": {
-      "postcss" : {
+      "postcss": {
         "autoprefixer-core": "^5.1.8",
         "postcss": "^4.1.4",
         "postcss-calc": "^4.0.1",
@@ -68,7 +68,7 @@
         "gulp-rtlcss": "^0.1.4"
       }
     },
-    "optional-modules" : [
+    "optional-modules": [
       "grid.css",
       "input-field.css",
       "button.css",
