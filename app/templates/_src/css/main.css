@@ -1,7 +1,8 @@
 /* sheer variables */
 @import '../../node_modules/sheer/src/css/variables/variables.css';
 
-@import '../../node_modules/sheer/src/css/modules/mixin.css';
+/* sheer mixins */
+@import '../../node_modules/sheer/src/css/mixins/mixins.css';
 
 /* app variables */
 @import 'variables/variables.css';
